@@ -1,0 +1,21 @@
+[submodule "Carvera_Controller"]
+	path = Carvera_Controller
+	url = https://github.com/oliveiracelso/Carvera_Controller.git
+[submodule "Carvera_Community_Firmware"]
+	path = Carvera_Community_Firmware
+	url = https://github.com/Carvera-Community/Carvera_Community_Firmware.git
+[submodule "CarveraController"]
+	path = CarveraController
+	url = https://github.com/MakeraInc/CarveraController.git
+[submodule "CarveraFirmware"]
+	path = CarveraFirmware
+	url = https://github.com/MakeraInc/CarveraFirmware.git
+[submodule "CarveraProfiles"]
+	path = CarveraProfiles
+	url = https://github.com/MakeraInc/CarveraProfiles.git
+[submodule "MakeraCAM"]
+	path = MakeraCAM
+	url = https://github.com/MakeraInc/MakeraCAM.git
+[submodule "updates"]
+	path = updates
+	url = https://github.com/MakeraInc/updates.git

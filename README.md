@@ -2,6 +2,20 @@
 
 Workspace de desenvolvimento para o ecossistema da CNC [Makera Carvera](https://www.makera.com), organizado como meta-repositório com submodules.
 
+## Edição própria do controller
+
+A branch [`custom`](https://github.com/oliveiracelso/Carvera_Controller/tree/custom) do fork é a **edição própria** do Carvera Controller: o `develop` da comunidade mais todas as melhorias desenvolvidas aqui, integradas e testadas em conjunto (270 testes unitários passando) —
+
+- correção do empacotamento (`build-backend`)
+- tradução pt-BR completa (424 strings)
+- limites de buffer do MDI + envio serializado (lock)
+- flow control de comandos (evita desconexões em rajadas)
+- cronômetro corrigido após abort + desconexão
+- checagem de atualização via API de releases do GitHub
+- ângulo de rotação do WCS na barra superior
+
+Cada melhoria também foi submetida individualmente ao upstream (PRs abaixo); conforme forem aceitas, a `custom` é rebaseada para conter apenas o delta.
+
 ## Estrutura
 
 | Submodule | Origem | Descrição |

@@ -14,6 +14,10 @@ A branch [`custom`](https://github.com/oliveiracelso/Carvera_Controller/tree/cus
 - checagem de atualização via API de releases do GitHub
 - ângulo de rotação do WCS na barra superior
 
+Além disso, a edição tem features próprias: botões de jog no estilo Super Nintendo (X azul, Y verde, A vermelho, Z amarelo).
+
+**Download:** [Windows x64 (.exe portátil)](https://github.com/oliveiracelso/Carvera_Controller/releases/tag/v2026.8.8)
+
 Cada melhoria também foi submetida individualmente ao upstream (PRs abaixo); conforme forem aceitas, a `custom` é rebaseada para conter apenas o delta.
 
 ## Estrutura
